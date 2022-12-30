@@ -30,7 +30,7 @@ export default function Content() {
                 { screenSize ?
                     <div id="carouselExampleControls" className="carousel slide carousel-fade">
                       <div className="carousel-inner">
-                            <div className="carousel-item active">
+                            <div className="carousel-item active" role="carousel-item">
                                 <img className="d-block slider-image" src="./images/image-product-1.jpg" alt="product-image"></img>
                             </div>
                             <div className="carousel-item">
@@ -51,7 +51,7 @@ export default function Content() {
                       </button>
                     </div>:
                     <div id="carouselExampleControls" className="carousel slide carousel-fade popup-image">
-			            <div className="carousel-indicators">
+			            <div className="carousel-indicators" role="carousel-indicators">
     		            	<button data-bs-target="#carouselExampleControls" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1">
 			            		<img className="thumbnail-image" src="./images/image-product-1-thumbnail.jpg" alt="thumbnail-imsge"></img> 
 			            	</button>
@@ -66,7 +66,7 @@ export default function Content() {
 			            	</button>
   			            </div>
 			            <div className="carousel-inner">
-			            	<div className="carousel-item active">
+			            	<div className="carousel-item active" role="carousel-item">
 			            		<img onClick={handleZoom} className="d-block w-100 image" src="./images/image-product-1.jpg" alt="product-image"></img>
 			            	</div>
 			            	<div className="carousel-item">
@@ -84,7 +84,7 @@ export default function Content() {
             </div>
 
             {/* Right content of the Page */}
-            <div className='col-lg right-content'>
+            <div className='col-lg right-content' role="right-content">
                 <h1>SNEAKER COMPANY</h1>
                 <h2 id="title">Fall Limited Edition Sneakers</h2>
                 <p>These low-profile sneakers are your perfect casual wear companian. Featuring a duable 
