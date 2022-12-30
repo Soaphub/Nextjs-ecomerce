@@ -83,6 +83,7 @@ p{
     width: var(--nav-avatar-size);
     height: var(--nav-avatar-size);
     margin: 0 var(--spacing-max);
+    border: 2px solid transparent;
 }
 .avatar-image:hover{
     border: 2px solid rgb(250, 129, 43);
@@ -142,6 +143,7 @@ p{
     border-radius: 5%;
     border: none;
     margin: var(--spacing-min);
+    border: 2px solid transparent;
 }
 .carousel-indicators .active, .carousel-indicators [data-bs-target]:hover{
     border: 2px solid rgb(250, 129, 43);
