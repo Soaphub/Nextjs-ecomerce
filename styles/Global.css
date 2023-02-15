@@ -400,7 +400,9 @@ p{
 
     /* CartPopup */
     #cart-Popup{
-        width: calc(var(--sreen-size) / 1.25);
+        width: calc(var(--sreen-size) / 1.1);
+        right: 0;
+        left: calc(var(--sreen-size) - calc(var(--sreen-size) /1.1));
     }
 }
 
