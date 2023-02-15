@@ -58,11 +58,11 @@ const handleCloseNavbar= ()=>{
 
 ### Useful resources
 
-- [https://www.youtube.com/c/TheNetNinja) - Learned more about Nextjs.
+- [TheNetNinja](https://www.youtube.com/c/TheNetNinja) - Learned more about Nextjs.
 
 ## Author
 
-- Website - [Ambadi](https://nextjs-ecomerce-one.vercel.app/)
+- Website - [Ambadi](https://soaphub.github.io/Mysite/)
 - Frontend Mentor - [@Soaphub](https://www.frontendmentor.io/profile/Soaphub)
 
 
