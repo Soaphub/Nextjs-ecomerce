@@ -400,7 +400,7 @@ p{
 
     /* CartPopup */
     #cart-Popup{
-        width: var(--sreen-size);
+        width: calc(var(--sreen-size) / 1.25);
     }
 }
 
